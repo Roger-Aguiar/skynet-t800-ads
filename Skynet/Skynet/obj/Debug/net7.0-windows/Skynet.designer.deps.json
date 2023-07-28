@@ -403,6 +403,7 @@
           }
         }
       },
+      "Selenium.WebDriver.ChromeDriver/115.0.5790.10200": {},
       "Sikuli4Net/1.0.6": {
         "dependencies": {
           "Newtonsoft.Json": "10.0.3"
@@ -1621,6 +1622,13 @@
       "sha512": "sha512-7CUnhcDpyUwY0fs/clW/avjJ8HSsDD3ae4JccC7Lz9oundxkWXLsH9jM0FfGkozj1rNnfYVYObXncQAQxXa4Qw==",
       "path": "selenium.webdriver/3.8.0",
       "hashPath": "selenium.webdriver.3.8.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/115.0.5790.10200": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2YLCCJpAORYwtUxs/zKscVZiAY++Bb2Ze8eeFa22fjKiGHgvsUwotHUSoze7O72kPM8lzZTwTo0vOlX4HqrYrA==",
+      "path": "selenium.webdriver.chromedriver/115.0.5790.10200",
+      "hashPath": "selenium.webdriver.chromedriver.115.0.5790.10200.nupkg.sha512"
     },
     "Sikuli4Net/1.0.6": {
       "type": "package",
