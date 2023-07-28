@@ -10,7 +10,7 @@ namespace Skynet
         }
 
         private void ButtonRunAds_Click(object sender, EventArgs e)
-        {
+        {            
             Whatsapp whatsapp = new(listOfContacts, RichTextBoxMessage.Text, "C:\\Users\\roger\\OneDrive\\Área de Trabalho\\LaptopFiles\\Agendamentos de RG\\anuncio.PNG");
             whatsapp.SendMessageWithImage();               
         }
