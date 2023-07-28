@@ -1,0 +1,17 @@
+C:\dev2\skynet-t800-ads\Skynet\Skynet\bin\Debug\net7.0-windows\Skynet.exe
+C:\dev2\skynet-t800-ads\Skynet\Skynet\bin\Debug\net7.0-windows\Skynet.deps.json
+C:\dev2\skynet-t800-ads\Skynet\Skynet\bin\Debug\net7.0-windows\Skynet.runtimeconfig.json
+C:\dev2\skynet-t800-ads\Skynet\Skynet\bin\Debug\net7.0-windows\Skynet.dll
+C:\dev2\skynet-t800-ads\Skynet\Skynet\bin\Debug\net7.0-windows\Skynet.pdb
+C:\dev2\skynet-t800-ads\Skynet\Skynet\obj\Debug\net7.0-windows\Skynet.csproj.AssemblyReference.cache
+C:\dev2\skynet-t800-ads\Skynet\Skynet\obj\Debug\net7.0-windows\Skynet.Form1.resources
+C:\dev2\skynet-t800-ads\Skynet\Skynet\obj\Debug\net7.0-windows\Skynet.csproj.GenerateResource.cache
+C:\dev2\skynet-t800-ads\Skynet\Skynet\obj\Debug\net7.0-windows\Skynet.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev2\skynet-t800-ads\Skynet\Skynet\obj\Debug\net7.0-windows\Skynet.AssemblyInfoInputs.cache
+C:\dev2\skynet-t800-ads\Skynet\Skynet\obj\Debug\net7.0-windows\Skynet.AssemblyInfo.cs
+C:\dev2\skynet-t800-ads\Skynet\Skynet\obj\Debug\net7.0-windows\Skynet.csproj.CoreCompileInputs.cache
+C:\dev2\skynet-t800-ads\Skynet\Skynet\obj\Debug\net7.0-windows\Skynet.dll
+C:\dev2\skynet-t800-ads\Skynet\Skynet\obj\Debug\net7.0-windows\refint\Skynet.dll
+C:\dev2\skynet-t800-ads\Skynet\Skynet\obj\Debug\net7.0-windows\Skynet.pdb
+C:\dev2\skynet-t800-ads\Skynet\Skynet\obj\Debug\net7.0-windows\Skynet.genruntimeconfig.cache
+C:\dev2\skynet-t800-ads\Skynet\Skynet\obj\Debug\net7.0-windows\ref\Skynet.dll
