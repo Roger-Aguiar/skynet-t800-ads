@@ -2,32 +2,38 @@ namespace Skynet
 {
     public partial class Form1 : Form
     {
-        List<string> listOfContacts = new();
+        List<Contacts> listOfContacts = new();
+        private string imagePath = string.Empty;
 
         public Form1()
         {
+            FormSplashScreen splashScreen = new();
+            splashScreen.Show();
+            Thread.Sleep(5000);
+            splashScreen.Close();
             InitializeComponent();
         }
 
+        #region Private methods
+
+        private List<Contacts> GetListOfContacts()
+        {
+            listOfContacts.Add(new Contacts() { Name = "Roger Aguiar (Claro)", ImagePath = imagePath, Message = "Link do formulário: https://forms.gle/xapoBFxstzGcvRaVA" });
+            listOfContacts.Add(new Contacts() { Name = "My Princess", ImagePath = imagePath, Message = "Link do formulário: https://forms.gle/xapoBFxstzGcvRaVA" });
+            return listOfContacts;
+        }
+        #endregion
+
         private void ButtonRunAds_Click(object sender, EventArgs e)
-        {            
-            Whatsapp whatsapp = new(listOfContacts, RichTextBoxMessage.Text, "C:\\Users\\roger\\OneDrive\\Área de Trabalho\\LaptopFiles\\Agendamentos de RG\\anuncio.PNG");
-            whatsapp.SendMessageWithImage();               
+        {
+            Whatsapp whatsapp = new(GetListOfContacts());
+            whatsapp.SendMessageWithImage();
         }
 
         private void ButtonAddGroup_Click(object sender, EventArgs e)
         {
-            if (TextBoxGroupName.Text == "")
-            {
-                MessageBox.Show("Digite o nome do grupo ou contato para adicionar na lista!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                TextBoxGroupName.Focus();
-            }
-            else
-            {                
-                ListBoxGroups.Items.Add(TextBoxGroupName.Text);
-                listOfContacts.Add(TextBoxGroupName.Text);
-                TextBoxGroupName.Clear();
-            }            
+            foreach (var contact in listOfContacts)
+                ListBoxGroups.Items.Add(contact.Name);
         }
 
         private void ListBoxGroups_SelectedIndexChanged(object sender, EventArgs e)
@@ -38,6 +44,12 @@ namespace Skynet
         {
         }
 
-        
+        private void ButtonAddImage_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog open = new();
+            open.ShowDialog();
+            imagePath = open.FileName;
+            MessageBox.Show("Imagem adicionada com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
     }
 }

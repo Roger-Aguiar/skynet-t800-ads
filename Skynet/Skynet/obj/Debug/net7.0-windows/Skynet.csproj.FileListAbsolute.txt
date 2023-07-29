@@ -51,3 +51,5 @@ C:\dev2\skynet-t800-ads\Skynet\Skynet\bin\Debug\net7.0-windows\WebDriver.dll
 C:\dev2\skynet-t800-ads\Skynet\Skynet\bin\Debug\net7.0-windows\Sikuli4Net.dll
 C:\dev2\skynet-t800-ads\Skynet\Skynet\bin\Debug\net7.0-windows\Tesseract.dll
 C:\dev2\skynet-t800-ads\Skynet\Skynet\obj\Debug\net7.0-windows\Skynet.csproj.CopyComplete
+C:\dev2\skynet-t800-ads\Skynet\Skynet\obj\Debug\net7.0-windows\Skynet.Forms.FormSplashScreen.resources
+C:\dev2\skynet-t800-ads\Skynet\Skynet\obj\Debug\net7.0-windows\Skynet.Properties.Resources.resources

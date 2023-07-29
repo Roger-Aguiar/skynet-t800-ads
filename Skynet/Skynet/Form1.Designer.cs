@@ -35,6 +35,7 @@
             RichTextBoxMessage = new RichTextBox();
             TextBoxGroupName = new TextBox();
             label2 = new Label();
+            ButtonAddImage = new Button();
             SuspendLayout();
             // 
             // ListBoxGroups
@@ -72,7 +73,7 @@
             // ButtonRunAds
             // 
             ButtonRunAds.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ButtonRunAds.Location = new Point(12, 304);
+            ButtonRunAds.Location = new Point(12, 353);
             ButtonRunAds.Name = "ButtonRunAds";
             ButtonRunAds.Size = new Size(550, 43);
             ButtonRunAds.TabIndex = 3;
@@ -107,11 +108,23 @@
             label2.TabIndex = 6;
             label2.Text = "Digite a mensagem que será enviada:";
             // 
+            // ButtonAddImage
+            // 
+            ButtonAddImage.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            ButtonAddImage.Location = new Point(13, 304);
+            ButtonAddImage.Name = "ButtonAddImage";
+            ButtonAddImage.Size = new Size(550, 43);
+            ButtonAddImage.TabIndex = 7;
+            ButtonAddImage.Text = "Adicionar imagem";
+            ButtonAddImage.UseVisualStyleBackColor = true;
+            ButtonAddImage.Click += ButtonAddImage_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(576, 356);
+            ClientSize = new Size(576, 406);
+            Controls.Add(ButtonAddImage);
             Controls.Add(label2);
             Controls.Add(TextBoxGroupName);
             Controls.Add(RichTextBoxMessage);
@@ -136,5 +149,6 @@
         private RichTextBox RichTextBoxMessage;
         private TextBox TextBoxGroupName;
         private Label label2;
+        private Button ButtonAddImage;
     }
 }
