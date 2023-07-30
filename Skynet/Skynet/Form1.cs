@@ -19,7 +19,7 @@ namespace Skynet
         private List<Contacts> GetListOfContacts()
         {
             listOfContacts.Add(new Contacts() { Name = "Roger Aguiar (Claro)", ImagePath = imagePath, Message = "Link do formulário: https://forms.gle/xapoBFxstzGcvRaVA" });
-            listOfContacts.Add(new Contacts() { Name = "My Princess", ImagePath = imagePath, Message = "Link do formulário: https://forms.gle/xapoBFxstzGcvRaVA" });
+            listOfContacts.Add(new Contacts() { Name = "André", ImagePath = imagePath, Message = "Testando o robô para envio de mensagem com imagem! Huhahahaha - Link do formulário: https://forms.gle/xapoBFxstzGcvRaVA" });
             return listOfContacts;
         }
         #endregion
